@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown-preview {
+  line-height: 1;
+  white-space: pre-wrap;
+}
+
+.markdown-preview h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.markdown-preview h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.markdown-preview p {
+  margin-top: 0.5em;
+  line-height: 1.5;
+}
+
+.markdown-preview blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1em;
+  color: #555;
+  margin: 1em 0;
+}
+
+.markdown-preview ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin: 0.5em 0 0.5em 2em;
+}
+
+.markdown-preview li {
+  line-height: 1.2;
+}
+
+.markdown-preview ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+  margin: 0.5em 0 0.5em 2em;
+  
+}
